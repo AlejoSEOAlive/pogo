@@ -79,7 +79,7 @@ export const LOCAL_PATHS = new Set<string>([
   "/games/trivial-pursuit-online",
   "/games/poppit-bingo",
   "/scrabble-strategy-pro-tips-for-every-skill-level",
-  // "/games-to-improve-vocabulary-fun-ways-to-boost-your-word-power",
+  "/games-to-improve-vocabulary-fun-ways-to-boost-your-word-power",
 ]);
 
 export function href(path: string): string {
