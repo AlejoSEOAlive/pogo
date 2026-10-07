@@ -24,6 +24,10 @@ const robotoCondensed = Roboto_Condensed({
 });
 
 export const metadata: Metadata = {
+  // Canonicals y OG apuntan al dominio de producción del cliente
+  metadataBase: new URL("https://www.pogo.com"),
+  openGraph: { siteName: "Pogo", type: "website", locale: "en_US" },
+  twitter: { card: "summary_large_image" },
   title: {
     default: "Pogo",
     template: "%s",

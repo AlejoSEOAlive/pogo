@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Image from "next/image";
-import { categories, getGames, href, navCategories, categoryHref, cdn } from "@/lib/pogo";
+import { categories, getGames, href, navCategories, categoryHref, cdn, games } from "@/lib/pogo";
 import { loadContent } from "@/lib/content";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import SortableGrid from "@/components/SortableGrid";
@@ -18,7 +18,14 @@ export async function generateMetadata({ params }: PageProps<"/free-online-games
   const { category } = await params;
   const c = categories[category];
   if (!c) return {};
-  return { title: c.seo.title, description: c.seo.metaDescription };
+  const path = `/free-online-games/${category}`;
+  const img = c.games[0] ? games[c.games[0]]?.img.gameTile : undefined;
+  return {
+    title: c.seo.title,
+    description: c.seo.metaDescription,
+    alternates: { canonical: path },
+    openGraph: { url: path, title: c.seo.title, description: c.seo.metaDescription, images: img ? [cdn(img)] : undefined },
+  };
 }
 
 export default async function CategoryPage({ params }: PageProps<"/free-online-games/[category]">) {

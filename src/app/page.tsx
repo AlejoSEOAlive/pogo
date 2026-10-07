@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   title: "Pogo Games - Play Free Online Games",
   description:
     "Play free online games at Pogo! Enjoy word, card, puzzle, solitaire, mahjong and match 3 games. No downloads needed.",
+  alternates: { canonical: "/" },
+  openGraph: {
+    url: "/",
+    title: "Pogo Games - Play Free Online Games",
+    description: "Play free online games at Pogo! Enjoy word, card, puzzle, solitaire, mahjong and match 3 games. No downloads needed.",
+    images: ["https://content.pogo.com/cms/plfm_drivers_GuestToFree_SpotlightBanner-2.jpg"],
+  },
 };
 
 type Section = { id: string; type: string; title?: string; copy?: string; itemIds?: string[]; source?: string };

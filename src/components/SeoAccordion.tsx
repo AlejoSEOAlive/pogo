@@ -3,7 +3,7 @@ export default function SeoAccordion({ title, html }: { title: string; html: str
   return (
     <details className="group mt-8">
       <summary className="flex cursor-pointer list-none items-center justify-between py-3 text-xl font-medium [&::-webkit-details-marker]:hidden">
-        <span>{title}</span>
+        <h2 className="text-xl font-medium">{title}</h2>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" className="transition-transform group-open:rotate-180" aria-hidden>
           <path d="m6 9 6 6 6-6" />
         </svg>

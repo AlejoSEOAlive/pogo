@@ -48,7 +48,9 @@ export async function generateMetadata({
   return {
     title: f.page.title,
     description: f.page.metaDescription,
+    alternates: { canonical: `/games/${slug}` },
     openGraph: {
+      url: `/games/${slug}`,
       title: f.page.title,
       description: f.page.metaDescription,
       images: [cdn(f.game.img.spotlightGame)],

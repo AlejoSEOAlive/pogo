@@ -19,7 +19,8 @@ export async function generateMetadata({ params }: PageProps<"/[slug]">): Promis
   return {
     title: a.seoTitle,
     description: a.seoDescription,
-    openGraph: { type: "article", title: a.seoTitle, description: a.seoDescription, images: [a.image] },
+    alternates: { canonical: `/${slug}` },
+    openGraph: { type: "article", url: `/${slug}`, title: a.seoTitle, description: a.seoDescription, images: [a.image] },
   };
 }
 

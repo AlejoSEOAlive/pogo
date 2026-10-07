@@ -90,7 +90,7 @@ export default function Header({ exploreGames }: { exploreGames: ExploreGame[] }
             </button>
           </div>
           <a
-            href={`${POGO}/server/auth/login`}
+            href={`${POGO}/server/auth/signin`}
             className="flex h-9 items-center rounded-md border-2 border-link bg-bg/40 px-3 font-cond text-base font-medium uppercase md:px-5"
           >
             Sign In
