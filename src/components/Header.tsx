@@ -3,8 +3,9 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { LOGO, POGO, href, navCategories, categoryHref, games, cdn } from "@/lib/pogo";
-import { ChevronDown, SearchIcon, ShieldIcon, MenuIcon, CloseIcon } from "./icons";
+import { ChevronDown, SearchIcon, ShieldIcon, MenuIcon } from "./icons";
 import PerksTooltip from "./PerksTooltip";
+import MobileDrawer from "./MobileDrawer";
 
 const explore = [
   { label: "Challenge Central", path: "/challenge-central" },
@@ -38,19 +39,19 @@ export default function Header() {
     <header ref={ref} className="sticky top-0 z-50 bg-header shadow-[0_2px_6px_rgba(0,0,0,.35)]">
       <div className="flex h-[62px] items-center gap-3 pl-3 pr-3 md:pl-6">
         <button
-          className="p-2 lg:hidden"
+          className="p-2 xl:hidden"
           aria-label="Menu"
           aria-expanded={open === "mobile"}
           onClick={() => toggle("mobile")}
         >
-          {open === "mobile" ? <CloseIcon /> : <MenuIcon />}
+          <MenuIcon />
         </button>
         <Link href="/" aria-label="Pogo home" className="shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={LOGO} alt="pogo logo" width={78} height={28} className="h-8 w-auto" />
+          <img src={LOGO} alt="pogo logo" width={78} height={28} className="h-10 w-auto md:h-14" />
         </Link>
 
-        <nav className="hidden items-center lg:flex" aria-label="Main">
+        <nav className="hidden items-center xl:flex" aria-label="Main">
           <button
             className="flex items-center gap-1 px-4 text-xl font-medium"
             aria-expanded={open === "games"}
@@ -78,7 +79,7 @@ export default function Header() {
           <a href={href("/club-pogo")} className="hidden items-center gap-2 text-xl font-medium xl:flex">
             <ShieldIcon /> Why Register?
           </a>
-          <div className="relative hidden lg:block">
+          <div className="relative hidden xl:block">
             <button
               className="flex items-center gap-1 px-3 text-xl font-medium"
               aria-expanded={open === "explore"}
@@ -158,35 +159,7 @@ export default function Header() {
         </div>
       )}
 
-      {/* Mobile menu */}
-      {open === "mobile" && (
-        <div className="absolute left-0 right-0 top-[62px] max-h-[calc(100vh-62px)] overflow-y-auto border-t border-white/10 bg-bg px-6 py-6 lg:hidden">
-          <p className="mb-3 font-cond text-sm font-bold uppercase text-muted">Games</p>
-          <a href={href("/free-online-games")} className="mb-3 block text-lg text-link">
-            Browse All Games
-          </a>
-          <ul className="mb-6 grid grid-cols-2 gap-3">
-            {navCategories.map((c) => (
-              <li key={c.id}>
-                <a href={categoryHref(c.name)} className="text-lg" onClick={() => setOpen(null)}>
-                  {c.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-          <p className="mb-3 font-cond text-sm font-bold uppercase text-muted">Explore</p>
-          <ul className="flex flex-col gap-3">
-            <li>
-              <a href={href("/club-pogo")} className="text-lg">Why Register?</a>
-            </li>
-            {explore.map((l) => (
-              <li key={l.path}>
-                <a href={href(l.path)} className="text-lg">{l.label}</a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <MobileDrawer open={open === "mobile"} onClose={() => setOpen(null)} />
       <PerksTooltip />
     </header>
   );
