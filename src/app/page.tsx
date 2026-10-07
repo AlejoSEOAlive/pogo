@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image, { getImageProps } from "next/image";
 import { home, getGames, href, cdn, POGO, games, categorySlug } from "@/lib/pogo";
 import GameRow from "@/components/GameRow";
 import Challenges from "@/components/Challenges";
@@ -22,6 +22,12 @@ type Section = { id: string; type: string; title?: string; copy?: string; itemId
 
 export default function Home() {
   const sp = home.spotlight;
+  // Hero optimizado (AVIF/WebP) con dirección de arte móvil/escritorio
+  const common = { alt: "", priority: true } as const;
+  const { props: { srcSet: dSet, ...rest } } = getImageProps({ ...common, src: sp.image, width: 1920, height: 373, sizes: "100vw" });
+  const { props: { srcSet: mSet } } = getImageProps({ ...common, src: sp.mobileImage, width: 828, height: 600, sizes: "100vw" });
+  const heroDesktop = { srcSet: dSet, rest };
+  const heroMobile = { srcSet: mSet };
   const sections = home.sections as Section[];
   const jump = sections
     .filter((s) => s.type === "game" && s.title)
@@ -32,9 +38,9 @@ export default function Home() {
       {/* Hero / spotlight */}
       <section className="relative h-[230px] overflow-hidden md:h-[280px]">
         <picture>
-          <source media="(max-width: 767px)" srcSet={sp.mobileImage} />
-          { }
-          <img src={sp.image} alt="" fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
+          <source media="(max-width: 767px)" srcSet={heroMobile.srcSet} />
+          <source media="(min-width: 768px)" srcSet={heroDesktop.srcSet} />
+          <img {...heroDesktop.rest} alt="" fetchPriority="high" className="absolute inset-0 h-full w-full object-cover" />
         </picture>
         <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(21,34,81,.9)_0%,rgba(21,34,81,0)_70%)] max-md:bg-[rgba(21,34,81,.45)]" />
         <div className="relative flex h-full flex-col justify-center px-6 max-md:items-center max-md:text-center md:px-14">
