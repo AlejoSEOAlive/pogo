@@ -77,7 +77,7 @@ export const LOCAL_PATHS = new Set<string>([
   "/free-online-games/card",
   "/free-online-games/puzzle",
   "/games/trivial-pursuit-online",
-  // "/games/poppit-bingo",
+  "/games/poppit-bingo",
   // ...Object.keys(articles).map((s) => "/" + s),
 ]);
 

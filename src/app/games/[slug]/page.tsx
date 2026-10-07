@@ -14,7 +14,7 @@ import { ExternalIcon } from "@/components/icons";
 export const dynamicParams = false;
 
 /** Juegos retirados en pogo.com: la URL existe pero muestra "Page Not Found" */
-const RETIRED = new Set(["poppit-bingo"]);
+const RETIRED = new Set<string>([]);
 
 export function generateStaticParams() {
   return [...Object.values(gamePages).map((g) => ({ slug: g.slug })), ...[...RETIRED].map((slug) => ({ slug }))];
@@ -83,12 +83,12 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
             items={[
               { label: "Home", href: "/" },
               { label: "All Games", href: href("/free-online-games") },
-              { label: p.breadcrumbCategory, href: categoryHref(p.breadcrumbCategory) },
+              ...(p.breadcrumbCategory ? [{ label: p.breadcrumbCategory, href: categoryHref(p.breadcrumbCategory) }] : []),
               { label: game.name },
             ]}
           />
           <p className="mt-6 text-[34px] font-medium leading-10 md:text-[46px]">{game.name}</p>
-          <p className="mt-2 text-base text-muted">{game.playerCount ?? 13} Playing Now!</p>
+          {game.playerCount != null && <p className="mt-2 text-base text-muted">{game.playerCount} Playing Now!</p>}
           <p className="mt-5 max-w-[580px] text-base leading-snug md:text-lg">{p.tagLine}</p>
           <GameHeroActions name={game.name} playUrl={playUrl} background={cdn(game.img.gameBackground ?? game.img.spotlightGame)} />
         </div>
@@ -113,9 +113,10 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
             <h1 className="mt-6 text-[22px] font-medium leading-[22px] md:text-[26px] md:leading-[26px]">{p.h1}</h1>
             {body && <div className="prose-pogo prose-game mt-4" dangerouslySetInnerHTML={{ __html: body }} />}
           </section>
+          {(p.categories.length > 0 || p.forumLink) && (
           <section>
             <h2 className="border-b border-white/30 pb-2 text-[31px] font-medium md:text-[38px]">Game Details</h2>
-            <div className="mt-6 flex items-start gap-3">
+            {p.categories.length > 0 && <div className="mt-6 flex items-start gap-3">
               <span className="pt-2 font-cond text-xs font-bold uppercase">Genre:</span>
               <ul className="flex flex-wrap gap-2">
                 {p.categories.map((c) => (
@@ -126,7 +127,7 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div>}
             {p.forumLink && (
               <p className="mt-6 flex items-center gap-2">
                 <span className="font-cond text-xs font-bold uppercase">Links:</span>
@@ -136,6 +137,7 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
               </p>
             )}
           </section>
+          )}
         </div>
       </GameTabs>
 

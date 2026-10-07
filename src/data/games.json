@@ -1270,5 +1270,18 @@
    "gameBackground": "/static/v2/media/src/assets/games/wheel_h5/gameBackground__2KINN.jpg",
    "eventTile": "/static/v2/media/src/assets/games/wheel_h5/eventTile__1umTa.jpg"
   }
+ },
+ "bingo_h5": {
+  "code": "bingo_h5",
+  "id": 0,
+  "name": "Poppit! Bingo",
+  "slug": "/games/poppit-bingo",
+  "shortDescription": "Travel the world, unleash power-ups, and rack up wins in Poppit! Bingo, a free online bingo game.",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/bingo_h5/gameTile__1YkAb.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/bingo_h5/spotlightGame__3d2vR.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/bingo_h5/gameBackground__3TSMu.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/bingo_h5/eventTile__2LVDW.jpg"
+  }
  }
 }

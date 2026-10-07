@@ -74,5 +74,28 @@
    "/static/v2/media/src/assets/games/pie_h5/screenshots/screenshot5__3dZYd.jpg"
   ],
   "breadcrumbCategory": "Board"
+ },
+ "bingo_h5": {
+  "slug": "poppit-bingo",
+  "h1": "Poppit Bingo: Pop Balloons and Play Free Online Bingo on Pogo!",
+  "tagLine": "Travel the world, unleash power-ups, and rack up wins in Poppit! Bingo, a free online bingo game.",
+  "title": "Poppit! Bingo Online — Free Classic Bingo With a Balloon-Pop Twist | Pogo",
+  "metaDescription": "Play Poppit! Bingo free online — pop balloons, match numbers, win rounds. No download needed on Pogo.com!",
+  "categories": [],
+  "related": [
+   "poppithd_h5",
+   "poppit_h5",
+   "meho_h5",
+   "nanaimobar_h5",
+   "wheel_h5"
+  ],
+  "screenshots": [
+   "/static/v2/media/src/assets/games/bingo_h5/screenshots/screenshot1__38gwy.jpg",
+   "/static/v2/media/src/assets/games/bingo_h5/screenshots/screenshot2__3ZZ4l.jpg",
+   "/static/v2/media/src/assets/games/bingo_h5/screenshots/screenshot3__3x4fD.jpg",
+   "/static/v2/media/src/assets/games/bingo_h5/screenshots/screenshot4__15MKU.jpg",
+   "/static/v2/media/src/assets/games/bingo_h5/screenshots/screenshot5__1Cq0n.jpg"
+  ],
+  "breadcrumbCategory": ""
  }
 }
