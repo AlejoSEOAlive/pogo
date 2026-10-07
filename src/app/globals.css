@@ -110,17 +110,61 @@ body {
   padding-left: 10px;
 }
 
-/* Variante de artículo */
+/* Variante de artículo (medidas tomadas de pogo.com) */
 .prose-article {
   color: #fff;
+  font-size: 15px;
+  line-height: 20px;
+}
+.prose-article p {
+  margin: 15px 0 16px;
+}
+.prose-article li {
+  line-height: normal;
+  margin: 15px 0;
+}
+.prose-article h2,
+.prose-article h3 {
+  line-height: 1.15;
+  margin: 0 0 16px;
 }
 .prose-article h2 {
-  font-size: 32px;
-  line-height: 1.2;
+  font-size: 31px;
 }
 .prose-article h3 {
   font-size: 26px;
-  line-height: 1.2;
+}
+.prose-article td {
+  font-size: 15px;
+  line-height: 20px;
+}
+.prose-article th {
+  font-size: 17px;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .prose-article {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .prose-article p {
+    margin: 18px 0 16px;
+  }
+  .prose-article li {
+    margin: 18px 0;
+  }
+  .prose-article h2 {
+    font-size: 38px;
+  }
+  .prose-article h3 {
+    font-size: 32px;
+  }
+  .prose-article td {
+    font-size: 18px;
+  }
+  .prose-article th {
+    font-size: 20px;
+  }
 }
 
 /* Variante de juego / categoría (medidas tomadas de pogo.com) */
