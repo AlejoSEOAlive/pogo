@@ -71,6 +71,7 @@ export default function Home() {
               allLink={isCat ? href(catPath) : undefined}
               allLabel={isCat ? `All ${s.title} Games` : undefined}
               priority={s.id === "top_games"}
+              deferRender={!["top_games", "new_games", "mobile_games"].includes(s.id)}
             />
           );
         }

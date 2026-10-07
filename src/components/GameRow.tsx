@@ -9,6 +9,7 @@ export default function GameRow({
   allLink,
   allLabel,
   priority = false,
+  deferRender = false,
 }: {
   id?: string;
   title: string;
@@ -16,9 +17,11 @@ export default function GameRow({
   allLink?: string;
   allLabel?: string;
   priority?: boolean;
+  /** content-visibility:auto para filas fuera de pantalla (menos trabajo de render) */
+  deferRender?: boolean;
 }) {
   return (
-    <section id={id} className="scroll-mt-20 py-4">
+    <section id={id} className={`scroll-mt-20 py-4 ${deferRender ? "[contain-intrinsic-size:auto_300px] [content-visibility:auto]" : ""}`}>
       <div className="mb-2 flex items-baseline justify-between px-6 md:px-14">
         <h2 className="text-xl font-medium md:text-[22px]">{title}</h2>
         {allLink && (
