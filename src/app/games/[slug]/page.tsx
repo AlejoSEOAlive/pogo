@@ -68,7 +68,7 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       {/* Hero */}
-      <section className="relative min-h-[520px] overflow-hidden md:h-[612px] md:min-h-0">
+      <section className="relative h-[550px] overflow-hidden">
         <Image
           src={cdn(game.img.spotlightGame)}
           alt="Game Screenshot Image"
@@ -87,7 +87,7 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
               { label: game.name },
             ]}
           />
-          <p className="mt-6 text-[34px] font-medium leading-tight md:text-[44px]">{game.name}</p>
+          <p className="mt-6 text-[34px] font-medium leading-10 md:text-[46px]">{game.name}</p>
           <p className="mt-2 text-base text-muted">{game.playerCount ?? 13} Playing Now!</p>
           <p className="mt-5 max-w-[580px] text-base leading-snug md:text-lg">{p.tagLine}</p>
           <GameHeroActions name={game.name} playUrl={playUrl} background={cdn(game.img.gameBackground ?? game.img.spotlightGame)} />
@@ -97,7 +97,7 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
       <GameTabs>
         {/* Game Media */}
         <section className="py-6">
-          <h2 className="mb-4 px-6 text-[34px] font-medium md:px-14">Game Media</h2>
+          <h2 className="mb-4 px-6 text-[31px] font-medium md:px-14 md:text-[38px]">Game Media</h2>
           <Carousel itemClass="w-[85vw] sm:w-[234px]" gap="gap-3">
             {p.screenshots.map((s, i) => (
               <div key={s} className="relative aspect-[234/132] overflow-hidden rounded">
@@ -109,12 +109,12 @@ export default async function GamePage({ params }: PageProps<"/games/[slug]">) {
 
         <div className="grid gap-10 px-6 pb-8 md:px-14 lg:grid-cols-[minmax(0,590px)_minmax(0,300px)]">
           <section>
-            <h2 className="border-b border-white/30 pb-2 text-[34px] font-medium">Description</h2>
-            <h1 className="mt-6 text-2xl font-medium leading-tight">{p.h1}</h1>
+            <h2 className="border-b border-white/30 pb-2 text-[31px] font-medium md:text-[38px]">Description</h2>
+            <h1 className="mt-6 text-[22px] font-medium leading-[22px] md:text-[26px] md:leading-[26px]">{p.h1}</h1>
             {body && <div className="prose-pogo prose-game mt-4" dangerouslySetInnerHTML={{ __html: body }} />}
           </section>
           <section>
-            <h2 className="border-b border-white/30 pb-2 text-[34px] font-medium">Game Details</h2>
+            <h2 className="border-b border-white/30 pb-2 text-[31px] font-medium md:text-[38px]">Game Details</h2>
             <div className="mt-6 flex items-start gap-3">
               <span className="pt-2 font-cond text-xs font-bold uppercase">Genre:</span>
               <ul className="flex flex-wrap gap-2">

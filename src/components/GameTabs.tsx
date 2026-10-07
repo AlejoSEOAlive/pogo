@@ -19,7 +19,7 @@ export default function GameTabs({ children }: { children: ReactNode }) {
               role="tab"
               aria-selected={tab === t.id}
               onClick={() => setTab(t.id)}
-              className={`h-[52px] flex-1 border-b-4 text-xl font-medium ${
+              className={`h-12 flex-1 border-b-4 text-lg font-medium md:text-[22px] ${
                 tab === t.id ? "border-accent text-white" : "border-white/20 text-muted"
               }`}
             >

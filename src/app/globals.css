@@ -123,10 +123,31 @@ body {
   line-height: 1.2;
 }
 
-/* Variante de juego / categoría */
-.prose-game h2 {
-  font-size: 22px;
+/* Variante de juego / categoría (medidas tomadas de pogo.com) */
+.prose-game {
+  color: #b1b8c8;
+  font-size: 15px;
+  line-height: 20px;
 }
+.prose-game li {
+  line-height: 22px;
+}
+.prose-game h2,
 .prose-game h3 {
-  font-size: 19px;
+  font-size: 18px;
+  line-height: 22px;
+}
+@media (min-width: 768px) {
+  .prose-game {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .prose-game li {
+    line-height: 31px;
+  }
+  .prose-game h2,
+  .prose-game h3 {
+    font-size: 22px;
+    line-height: 31px;
+  }
 }
