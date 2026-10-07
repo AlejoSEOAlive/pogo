@@ -46,10 +46,10 @@ export default async function ArticlePage({ params }: PageProps<"/[slug]">) {
   };
 
   return (
-    <div className="bg-[radial-gradient(ellipse_at_top_left,#1d2f33_0%,transparent_45%),radial-gradient(ellipse_at_bottom_right,#2b1a3a_0%,transparent_45%)] px-4 py-8 md:px-14">
+    <div className="bg-[radial-gradient(ellipse_at_top_left,#1d2f33_0%,transparent_45%),radial-gradient(ellipse_at_bottom_right,#2b1a3a_0%,transparent_45%)] px-4 py-8 md:px-7 xl:px-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <article className="mx-auto max-w-[1330px] rounded-[28px] border border-white/20 bg-bg/60 px-[30px] pb-12 pt-10 md:px-10">
-        <div className="mx-auto max-w-[760px]">
+      <article className="w-full rounded-[28px] border border-white/20 bg-bg/60 px-[30px] pb-12 pt-10 md:px-[8%] md:pt-14">
+        <div className="mx-auto max-w-[758px] md:w-[85%]">
           <div className="text-center">
             <a href={href("/articles")} className="text-sm font-medium underline">
               &lt; Back to Articles
@@ -63,7 +63,7 @@ export default async function ArticlePage({ params }: PageProps<"/[slug]">) {
                 { label: a.title },
               ]}
             />
-            <h1 className="mt-4 text-[34px] font-medium leading-tight md:text-[46px]">{a.title}</h1>
+            <h1 className="mt-4 text-[34px] font-medium leading-tight md:text-[40px] xl:text-[46px]">{a.title}</h1>
             <p className="mx-auto mt-4 max-w-[760px] text-lg font-medium leading-snug text-muted md:text-[22px]">{a.description}</p>
           </div>
 

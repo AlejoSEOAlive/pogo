@@ -3,7 +3,7 @@ import { type MoreArticle, blogCategories, cdn, href } from "@/lib/pogo";
 
 export default function MoreArticles({ items }: { items: MoreArticle[] }) {
   return (
-    <section className="mx-auto mt-10 max-w-[1330px]">
+    <section className="mt-10">
       <h2 className="mb-4 text-xl font-medium">More Articles</h2>
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-[repeat(auto-fill,258px)]">
         {items.map((m) => {
