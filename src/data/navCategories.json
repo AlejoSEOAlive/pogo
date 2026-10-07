@@ -1,0 +1,62 @@
+[
+ {
+  "id": "solitaire",
+  "name": "Solitaire"
+ },
+ {
+  "id": "word",
+  "name": "Word"
+ },
+ {
+  "id": "mahjong",
+  "name": "Mahjong"
+ },
+ {
+  "id": "puzzle",
+  "name": "Puzzle"
+ },
+ {
+  "id": "match-3",
+  "name": "Match 3"
+ },
+ {
+  "id": "merge",
+  "name": "Merge"
+ },
+ {
+  "id": "board",
+  "name": "Board"
+ },
+ {
+  "id": "card",
+  "name": "Card"
+ },
+ {
+  "id": "club-pogo",
+  "name": "Club Pogo"
+ },
+ {
+  "id": "hidden-object",
+  "name": "Hidden Object"
+ },
+ {
+  "id": "multiplayer",
+  "name": "Multiplayer"
+ },
+ {
+  "id": "farming",
+  "name": "Farming"
+ },
+ {
+  "id": "sudoku",
+  "name": "Sudoku"
+ },
+ {
+  "id": "crossword-puzzles",
+  "name": "Crossword Puzzles"
+ },
+ {
+  "id": "html5",
+  "name": "HTML5"
+ }
+]

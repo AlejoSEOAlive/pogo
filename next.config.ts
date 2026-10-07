@@ -1,8 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  cacheComponents: true,
-  partialPrefetching: true,
   poweredByHeader: false,
   turbopack: {
     rules: {
@@ -11,6 +9,13 @@ const nextConfig: NextConfig = {
         as: "*.css",
       },
     },
+  },
+  images: {
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
+      new URL("https://www.pogo.com/static/**"),
+      new URL("https://content.pogo.com/**"),
+    ],
   },
   // Sitio de staging/réplica: nunca indexable
   async headers() {

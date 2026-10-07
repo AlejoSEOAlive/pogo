@@ -1,0 +1,77 @@
+{
+ "card": {
+  "id": "card",
+  "name": "Card",
+  "games": [
+   "solitairehome_h5",
+   "pegasus_h5",
+   "anaconda_h5",
+   "thunderball_h5",
+   "cardscramble_h5",
+   "aces_h5",
+   "firstclass_h5",
+   "tis_h5",
+   "jetset_h5",
+   "rainydaysolitaire_h5",
+   "payday_h5",
+   "coconut_h5",
+   "charminar_h5",
+   "worldclass_h5",
+   "tajmahal_h5",
+   "tripeaks_h5"
+  ],
+  "spotlight": "anaconda_h5",
+  "forumLink": "https://games-forum.pogo.com/viewforum.php?f=128",
+  "seo": {
+   "title": "Free Card Games Online — Play Solitaire, Poker & More | Pogo",
+   "metaDescription": "Play 16+ free card games online without downloading. Enjoy Solitaire, Poker Town, Spades and more on Pogo!",
+   "h1": "Play free online card games for adults at Pogo",
+   "h2": "Free Online Card Games"
+  }
+ },
+ "puzzle": {
+  "id": "puzzle",
+  "name": "Puzzle",
+  "games": [
+   "tilehero_h5",
+   "wheel_h5",
+   "mergeacademy_h5",
+   "nanaimobar_h5",
+   "irongrid_h5",
+   "meho_h5",
+   "secretword_h5",
+   "socks_h5",
+   "sidewinder_h5",
+   "copperhead_h5",
+   "pogodailysudoku_h5",
+   "sudoku_h5",
+   "poutine_h5",
+   "qutubminar_h5",
+   "hauntedhog",
+   "claire2_h5",
+   "mjgardens_h5",
+   "mjsafari_h5",
+   "ms_h5",
+   "phlinx_h5",
+   "stt_h5",
+   "poppit_h5",
+   "poppithd_h5",
+   "stackem_h5",
+   "grilledcheese_h5",
+   "crosswordcove_h5",
+   "tumblebees_h5",
+   "wordwhomp_h5",
+   "wordsearch_h5",
+   "sphinx_h5",
+   "cardscramble_h5"
+  ],
+  "spotlight": null,
+  "forumLink": "https://games-forum.pogo.com/viewforum.php?f=173",
+  "seo": {
+   "title": "Free Puzzle Games for Adults Online, No Downloading — Play it Now | Pogo",
+   "metaDescription": "Conquer brainy puzzles at Pogo! Play +35 free online puzzle games for adults and spark your intellect with thrilling challenges, no installs.",
+   "h1": "Free Puzzle Games for Adults Without Downloading - Mind Challenges",
+   "h2": "Free Online Puzzle Games"
+  }
+ }
+}

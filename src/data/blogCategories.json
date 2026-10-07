@@ -1,0 +1,150 @@
+[
+ {
+  "path": "/articles/strategy-games",
+  "categoryId": "strategy-games",
+  "seoTitle": "Strategy Game Articles",
+  "seoDescription": "SEO This is test 1 categoryy",
+  "name": "Strategy",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/word-and-spelling-games",
+  "categoryId": "word-and-spelling-games",
+  "seoTitle": "Word Game Articles",
+  "seoDescription": "test 2 meta description",
+  "name": "Word",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/casino-games",
+  "categoryId": "casino-games",
+  "seoTitle": "Casino Game Articles",
+  "name": "Casino",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/sudoku-games",
+  "categoryId": "sudoku-games",
+  "seoTitle": "Sudoku Game Articles",
+  "seoDescription": "test 3 meta description",
+  "name": "Sudoku",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/mahjong-games",
+  "categoryId": "mahjong-games",
+  "seoTitle": "Mahjong Game Articles",
+  "name": "Mahjong",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/puzzle-games",
+  "categoryId": "puzzle-games",
+  "seoTitle": "Puzzle Game Articles",
+  "name": "Puzzle",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/card-games",
+  "categoryId": "card-games",
+  "seoTitle": "Card Game Articles",
+  "name": "Card",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/community-insider",
+  "categoryId": "community-insider",
+  "name": "Insider",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/community-events",
+  "categoryId": "community-events",
+  "seoTitle": "Event Articles",
+  "name": "Events",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/brain-games",
+  "categoryId": "brain-games",
+  "seoTitle": "Brain Game Articles",
+  "name": "Brain",
+  "sort": 0,
+  "navigationSection": [
+   "ADDITIONAL_CATEGORIES"
+  ]
+ },
+ {
+  "path": "/articles/casual-games",
+  "categoryId": "casual-games",
+  "name": "Casual",
+  "sort": 0
+ },
+ {
+  "path": "/articles/games-for-adults",
+  "categoryId": "games-for-adults",
+  "seoTitle": "Adults Game Articles",
+  "name": "Adults",
+  "sort": 0,
+  "navigationSection": [
+   "ADDITIONAL_CATEGORIES"
+  ]
+ },
+ {
+  "path": "/articles/games-for-women",
+  "categoryId": "games-for-women",
+  "seoTitle": "Women Game Articles",
+  "name": "Women",
+  "sort": 0,
+  "navigationSection": [
+   "ADDITIONAL_CATEGORIES"
+  ]
+ },
+ {
+  "path": "/articles/community-updates",
+  "categoryId": "community-updates",
+  "seoDescription": "Update Articles",
+  "name": "Updates",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ },
+ {
+  "path": "/articles/community-onboarding",
+  "categoryId": "community-onboarding",
+  "seoTitle": "Onboarding Articles",
+  "name": "Onboarding",
+  "sort": 0,
+  "navigationSection": [
+   "NAVIGATION_BAR"
+  ]
+ }
+]

@@ -1,0 +1,1274 @@
+{
+ "farmvalley_h5": {
+  "code": "farmvalley_h5",
+  "id": 163004,
+  "name": "Farm Merge Valley",
+  "shortDescription": "Create your dream farm in Farm Merge Valley! Expand your land, fill your discovery diary, complete exciting challenges for rewards, earn XP and level up, then upgrade crops and animals using merge-3 progression.",
+  "categories": [
+   "Merge",
+   "HTML5",
+   "Farming",
+   "Simulation"
+  ],
+  "playerCount": 1550,
+  "labels": [
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/farm-merge-valley",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/farmvalley_h5/gameTile__2-ZA4.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/farmvalley_h5/spotlightGame__3dFfb.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/farmvalley_h5/gameBackground__2C7SS.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/farmvalley_h5/eventTile__14NR2.jpg"
+  }
+ },
+ "brisket": {
+  "code": "brisket",
+  "id": 421,
+  "name": "SCRABBLE",
+  "shortDescription": "Every letter counts in the original crossword game! Play SCRABBLE alone or take on up to three friends.",
+  "categories": [
+   "Word",
+   "Multiplayer",
+   "Board",
+   "Crossword Puzzles",
+   "Brain",
+   "HTML5",
+   "Spelling",
+   "2 Player",
+   "1 Player",
+   "Skill",
+   "Casual"
+  ],
+  "playerCount": 618,
+  "slug": "/games/scrabble",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/brisket/gameTile__3gIKB.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/brisket/spotlightGame__2FE2R.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/brisket/gameBackground__1YcTu.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/brisket/eventTile__3fiSH.jpg"
+  }
+ },
+ "mjgardens_h5": {
+  "code": "mjgardens_h5",
+  "id": 403,
+  "name": "Mahjong Garden HD",
+  "shortDescription": "Immerse yourself in a relaxing Chinese garden and journey through the seasons. Match traditional mahjong tiles to complete zodiac-inspired puzzles and grow Drake the Dragon.",
+  "categories": [
+   "Mahjong",
+   "Puzzle",
+   "HTML5",
+   "Strategy",
+   "Casual"
+  ],
+  "playerCount": 523,
+  "slug": "/games/mahjong-garden",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/mjgardens_h5/gameTile__2cDs4.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/mjgardens_h5/spotlightGame__2Zth2.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/mjgardens_h5/gameBackground__3isq8.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/mjgardens_h5/eventTile__2uW56.jpg"
+  }
+ },
+ "wordsearch_h5": {
+  "code": "wordsearch_h5",
+  "id": 405,
+  "name": "Word Search Daily HD",
+  "shortDescription": "Can you find all the hidden words in Word Search Daily HD? Play a new themed puzzle every day, then dive into the archives to catch up on six months of past puzzles.",
+  "categories": [
+   "Word",
+   "Club Pogo",
+   "Puzzle",
+   "Brain",
+   "HTML5",
+   "Casual"
+  ],
+  "playerCount": 29,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/word-search",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/wordsearch_h5/gameTile__uramR.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/wordsearch_h5/spotlightGame__2a3VB.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/wordsearch_h5/gameBackground__3WAiV.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/wordsearch_h5/eventTile__5Y0tW.jpg"
+  }
+ },
+ "firstclass_h5": {
+  "code": "firstclass_h5",
+  "id": 404,
+  "name": "First Class Solitaire HD",
+  "shortDescription": "Travel in style with First Class Solitaire HD. Sort all the cards into the foundation piles and keep an eye out for bonus cards to multiply your points.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy",
+   "Casual"
+  ],
+  "playerCount": 443,
+  "slug": "/games/first-class-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/firstclass_h5/gameTile__3LTh1.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/firstclass_h5/spotlightGame__2MXvY.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/firstclass_h5/gameBackground__2YPLl.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/firstclass_h5/eventTile__2I1c4.jpg"
+  }
+ },
+ "wordwhomp_h5": {
+  "code": "wordwhomp_h5",
+  "id": 408,
+  "name": "Word Whomp HD",
+  "shortDescription": "Create as many words as you can from six letters. Time is ticking, so spell fast! The more words you spell, the more veggies Nestor gets to eat.",
+  "categories": [
+   "Word",
+   "Puzzle",
+   "Brain",
+   "HTML5",
+   "Spelling",
+   "Crazy Games",
+   "1 Player",
+   "Casual"
+  ],
+  "playerCount": 277,
+  "slug": "/games/word-whomp",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/wordwhomp_h5/gameTile__1qfSy.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/wordwhomp_h5/spotlightGame__Yr40W.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/wordwhomp_h5/gameBackground__18nSP.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/wordwhomp_h5/eventTile__szc-Z.jpg"
+  }
+ },
+ "claire2_h5": {
+  "code": "claire2_h5",
+  "id": 397,
+  "name": "Claire Hart: Secret in the Shadows",
+  "shortDescription": "Claire Hart is back for a new series of mysteries! When her husband is accused of a terrible crime, Claire must set the record straight by searching out all the hidden clues.",
+  "categories": [
+   "Hidden Object",
+   "Puzzle",
+   "HTML5"
+  ],
+  "playerCount": 23,
+  "slug": "/games/claire-hart-secret-in-the-shadows",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/claire2_h5/gameTile__t5HPk.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/claire2_h5/spotlightGame__3ai67.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/claire2_h5/gameBackground__wOk2a.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/claire2_h5/eventTile__LhVN2.jpg"
+  }
+ },
+ "stt_h5": {
+  "code": "stt_h5",
+  "id": 414,
+  "name": "Sweet Tooth Town",
+  "shortDescription": "Step into a sweet new match-3 adventure! Build and upgrade whimsical shops and team up with colorful shopkeepers to take on new goals and obstacles.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Cooking"
+  ],
+  "playerCount": 27,
+  "slug": "/games/sweet-tooth-town",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/stt_h5/gameTile__kJrRd.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/stt_h5/spotlightGame__3HZgn.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/stt_h5/gameBackground__2GCH2.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/stt_h5/eventTile__2pTMf.jpg"
+  }
+ },
+ "stackem_h5": {
+  "code": "stackem_h5",
+  "id": 400,
+  "name": "Stack'em HD",
+  "shortDescription": "Help Farmer Fred keep his animals safe and happy. Stack, sort and match farmyard friends before they go over the fence.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Arcade",
+   "Block",
+   "Crazy Games",
+   "Casual"
+  ],
+  "playerCount": 34,
+  "slug": "/games/stackem",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/stackem_h5/gameTile__2R_Ah.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/stackem_h5/spotlightGame__2d6ck.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/stackem_h5/gameBackground__2HBYD.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/stackem_h5/eventTile__xx51Z.jpg"
+  }
+ },
+ "pegasus_h5": {
+  "code": "pegasus_h5",
+  "id": 424,
+  "name": "Canasta HD",
+  "shortDescription": "Make your melds in Canasta HD, the classic multiplayer online card game with retro flair.",
+  "categories": [
+   "Card",
+   "Multiplayer",
+   "Club Pogo",
+   "HTML5",
+   "Skill",
+   "Casual"
+  ],
+  "playerCount": 1263,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   },
+   {
+    "type": "event",
+    "copy": "DAILY"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/canasta",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/pegasus_h5/gameTile__21Xf0.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/pegasus_h5/spotlightGame__2gBgm.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/pegasus_h5/gameBackground__2qmki.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/pegasus_h5/eventTile__cRN3V.jpg"
+  }
+ },
+ "anaconda_h5": {
+  "code": "anaconda_h5",
+  "id": 435,
+  "name": "Jungle Gin HD",
+  "shortDescription": "Gin up some wins in Jungle Gin HD! Build your runs and sets and unload your deadwood in this tropical take on the two-player card game classic.",
+  "categories": [
+   "Card",
+   "Multiplayer",
+   "Club Pogo",
+   "HTML5",
+   "Skill",
+   "Casual"
+  ],
+  "playerCount": 352,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/jungle-gin",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/anaconda_h5/gameTile__1UXxt.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/anaconda_h5/spotlightGame__1lyN3.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/anaconda_h5/gameBackground__33qjG.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/anaconda_h5/eventTile__phbNr.jpg"
+  }
+ },
+ "irongrid_h5": {
+  "code": "irongrid_h5",
+  "id": 446,
+  "name": "MONOPOLY Sudoku",
+  "shortDescription": "Own it all in MONOPOLY Sudoku, a free online puzzle game. Use your wits to solve sudoku puzzles to earn MONOPOLY Money, then buy and develop new properties.",
+  "categories": [
+   "Puzzle",
+   "Sudoku",
+   "Brain",
+   "HTML5",
+   "Number",
+   "Skill",
+   "Casual"
+  ],
+  "playerCount": 159,
+  "slug": "/games/monopoly-sudoku",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/irongrid_h5/gameTile__wMpqC.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/irongrid_h5/spotlightGame__ak-xK.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/irongrid_h5/gameBackground__1s3VY.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/irongrid_h5/eventTile__2OBuG.jpg"
+  }
+ },
+ "tilehero_h5": {
+  "code": "tilehero_h5",
+  "id": 151203,
+  "name": "Tile Hero",
+  "shortDescription": "A disaster has struck, and the world is in danger. In Tile Hero, you will step into the shoes of a courageous rescuer, using your tile matching skills to solve puzzles and save those in need. This thrilling mahjong-inspired match 3 game is perfect for players looking for a challenge.",
+  "categories": [
+   "Match 3",
+   "Mahjong",
+   "Puzzle",
+   "HTML5"
+  ],
+  "playerCount": 386,
+  "labels": [
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/tile-hero",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/tilehero_h5/gameTile__wh4yx.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/tilehero_h5/spotlightGame__pwrgy.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/tilehero_h5/gameBackground__2DAGX.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/tilehero_h5/eventTile__2KJr1.jpg"
+  }
+ },
+ "qutubminar_h5": {
+  "code": "qutubminar_h5",
+  "id": 439,
+  "name": "Bejeweled Stars",
+  "shortDescription": "The original match-3 series is back with Bejeweled Stars! Match colorful gems across hundreds of levels, deploy explosive Powers and collect Stars to rebuild the night sky.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Block",
+   "Mobile",
+   "1 Player",
+   "Casual"
+  ],
+  "playerCount": 94,
+  "slug": "/games/bejeweled-stars",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/qutubminar_h5/gameTile__JSP4l.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/qutubminar_h5/spotlightGame__cMNlw.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/qutubminar_h5/gameBackground__3F5Wn.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/qutubminar_h5/eventTile__1mXRg.jpg"
+  }
+ },
+ "cardscramble_h5": {
+  "code": "cardscramble_h5",
+  "id": 100113,
+  "name": "Card Scramble: Viola's Diner",
+  "shortDescription": "An innovative card game like no other. Strategic board play, challenging puzzles, and a heartwarming story to restore the family diner.",
+  "categories": [
+   "Card",
+   "Board",
+   "Puzzle",
+   "HTML5",
+   "Simulation"
+  ],
+  "playerCount": 57,
+  "labels": [
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/card-scramble",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/cardscramble_h5/gameTile___OBNX.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/cardscramble_h5/spotlightGame__2SJOs.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/cardscramble_h5/gameBackground__1CgS4.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/cardscramble_h5/eventTile__EUQu4.jpg"
+  }
+ },
+ "poutine_h5": {
+  "code": "poutine_h5",
+  "id": 442,
+  "name": "Pogo™ Mini-Golf",
+  "shortDescription": "Slice your way through a forest full of fun obstacles in Pogo Mini Golf, a casual online golf game. Take on challenging courses as you hone your hole-in-one skills.",
+  "categories": [
+   "Puzzle",
+   "HTML5",
+   "Arcade",
+   "Crazy Games",
+   "Simulation"
+  ],
+  "playerCount": 2,
+  "slug": "/games/pogo-mini-golf",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/poutine_h5/gameTile__y0Okp.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/poutine_h5/spotlightGame__101hO.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/poutine_h5/gameBackground__P7GDt.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/poutine_h5/eventTile__3sIpR.jpg"
+  }
+ },
+ "jetset_h5": {
+  "code": "jetset_h5",
+  "id": 394,
+  "name": "Jet Set Solitaire",
+  "shortDescription": "Pack your bags and climb aboard for a whirlwind world tour. Take on fun levels around the globe, collecting souvenirs and earning stars to unlock your next destination.",
+  "categories": [
+   "Card",
+   "Solitaire",
+   "Brain",
+   "HTML5",
+   "Strategy"
+  ],
+  "playerCount": 58,
+  "slug": "/games/jet-set-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/jetset_h5/gameTile__1aAY7.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/jetset_h5/spotlightGame__3VIxp.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/jetset_h5/gameBackground__wNG87.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/jetset_h5/eventTile__D4WgZ.jpg"
+  }
+ },
+ "meho_h5": {
+  "code": "meho_h5",
+  "id": 100111,
+  "name": "Matching Moments",
+  "shortDescription": "Join Nora in Matching Moments! Solve compelling match-3 puzzles, decorate and renovate her home, complete fun challenges, collect rewards, and follow a charming story full of surprises.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Simulation"
+  ],
+  "playerCount": 90,
+  "labels": [
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/matching-moments",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/meho_h5/gameTile__3vMgR.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/meho_h5/spotlightGame__17EwH.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/meho_h5/gameBackground__1igO4.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/meho_h5/eventTile__3ru1K.jpg"
+  }
+ },
+ "poppithd_h5": {
+  "code": "poppithd_h5",
+  "id": 415,
+  "name": "Poppit! HD",
+  "shortDescription": "Pop your way to victory in Poppit! HD. Team up with fun-loving cactus Spike to pop all the balloons away and win all the prizes in this timeless classic.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Arcade",
+   "1 Player",
+   "Casual"
+  ],
+  "playerCount": 119,
+  "slug": "/games/poppit",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/poppithd_h5/gameTile__xbrOF.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/poppithd_h5/spotlightGame__HvfZ5.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/poppithd_h5/gameBackground__3s92W.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/poppithd_h5/eventTile__7HJqc.jpg"
+  }
+ },
+ "charminar_h5": {
+  "code": "charminar_h5",
+  "id": 436,
+  "name": "Solitaire Blitz",
+  "shortDescription": "Match cards quickly and win in 60 seconds. Join your crew as you travel the Caribbean to find valuable treasure! Complete quests and explore uncharted islands.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy"
+  ],
+  "playerCount": 5,
+  "slug": "/games/solitaire-blitz",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/charminar_h5/gameTile__2WRPJ.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/charminar_h5/spotlightGame__2XR7T.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/charminar_h5/gameBackground__3EcmV.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/charminar_h5/eventTile__3n0ew.jpg"
+  }
+ },
+ "sidewinder_h5": {
+  "code": "sidewinder_h5",
+  "id": 428,
+  "name": "Jigsaw Treasure Hunter HD",
+  "shortDescription": "Join Chase Hunter for an international adventure in Jigsaw Treasure Hunter HD! Travel the world and solve hundreds of puzzles while collecting priceless treasures.",
+  "categories": [
+   "Puzzle",
+   "HTML5"
+  ],
+  "playerCount": 28,
+  "slug": "/games/jth",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/sidewinder_h5/gameTile__3Fy4G.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/sidewinder_h5/spotlightGame__1jSRT.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/sidewinder_h5/gameBackground__3e8va.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/sidewinder_h5/eventTile__16aU_.jpg"
+  }
+ },
+ "mergeacademy_h5": {
+  "code": "mergeacademy_h5",
+  "id": 455,
+  "name": "Merge Academy",
+  "shortDescription": "Step into the world of Merge Academy! This magical online merge game requires you to merge objects to collect magic crystals to complete your mystical tasks and orders.",
+  "categories": [
+   "Merge",
+   "Match 3",
+   "Puzzle",
+   "Mobile",
+   "1 Player",
+   "Simulation"
+  ],
+  "playerCount": 607,
+  "labels": [
+   {
+    "type": "event",
+    "copy": "WEEKLY"
+   },
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/merge-academy",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/mergeacademy_h5/gameTile__3mJnr.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/mergeacademy_h5/spotlightGame__3Wsjh.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/mergeacademy_h5/gameBackground__1E9z9.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/mergeacademy_h5/eventTile__MIasz.jpg",
+   "spotlightMobile": "/static/v2/media/src/assets/games/mergeacademy_h5/spotlightMobile__3Wsjh.jpg"
+  }
+ },
+ "payday_h5": {
+  "code": "payday_h5",
+  "id": 410,
+  "name": "Payday Freecell HD",
+  "shortDescription": "Try your luck in Payday FreeCell HD! Rack up points by moving all the cards from your table and free cells to the four foundation stacks, arranged from Ace to King.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy",
+   "Casual"
+  ],
+  "playerCount": 85,
+  "slug": "/games/payday-freecell-hd",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/payday_h5/gameTile__2gwVk.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/payday_h5/spotlightGame__NDFK1.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/payday_h5/gameBackground__18iqD.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/payday_h5/eventTile__JiK5P.jpg"
+  }
+ },
+ "ms_h5": {
+  "code": "ms_h5",
+  "id": 422,
+  "name": "Mahjong Sanctuary",
+  "shortDescription": "Create a thriving wildlife preserve! Play through mahjong puzzles and win Stars to build and upgrade your habitats. Bring your Sanctuary to life with lions, elephants and more.",
+  "categories": [
+   "Mahjong",
+   "Puzzle",
+   "HTML5",
+   "Strategy",
+   "Casual"
+  ],
+  "playerCount": 396,
+  "slug": "/games/mahjong-sanctuary",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/ms_h5/gameTile__17JE4.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/ms_h5/spotlightGame__2xvQO.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/ms_h5/gameBackground__1UkO7.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/ms_h5/eventTile__3g5x2.jpg"
+  }
+ },
+ "sphinx_h5": {
+  "code": "sphinx_h5",
+  "id": 426,
+  "name": "Bookworm HD",
+  "shortDescription": "Link letters to form words and feed Lex the Bookworm's voracious appetite. Score bonus points by linking Reward Tiles, but watch out for Burning Tiles – they can spell disaster!",
+  "categories": [
+   "Word",
+   "Club Pogo",
+   "Puzzle",
+   "Crossword Puzzles",
+   "Brain",
+   "HTML5",
+   "Spelling",
+   "Casual"
+  ],
+  "playerCount": 35,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/bookworm",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/sphinx_h5/gameTile__7RNQ9.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/sphinx_h5/spotlightGame__1Kfs_.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/sphinx_h5/gameBackground__3qGSY.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/sphinx_h5/eventTile__3Z2Ok.jpg"
+  }
+ },
+ "coconut_h5": {
+  "code": "coconut_h5",
+  "id": 432,
+  "name": "Snowbird Solitaire",
+  "shortDescription": "Create your own tropical paradise in Snowbird Solitaire! Take on hundreds of tri-peaks levels, overcome outrageous obstacles and decorate the island for your snowbird guests.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy",
+   "Mobile",
+   "Relaxing",
+   "1 Player",
+   "Casual"
+  ],
+  "playerCount": 1603,
+  "labels": [
+   {
+    "type": "event",
+    "copy": "WEEKLY"
+   },
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/snowbird-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/coconut_h5/gameTile__2NzAl.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/coconut_h5/spotlightGame__3-zPW.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/coconut_h5/gameBackground__2J6hX.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/coconut_h5/eventTile__YY26g.jpg"
+  }
+ },
+ "tajmahal_h5": {
+  "code": "tajmahal_h5",
+  "id": 425,
+  "name": "Pogo™ Addiction Solitaire HD",
+  "shortDescription": "Line up your suits and play fun minigames in Pogo™ Addiction Solitaire HD! Join Tiki for a wild romp through the world of Pogo as you win games and unlock new buddy bobbleheads.",
+  "categories": [
+   "Solitaire",
+   "Club Pogo",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy"
+  ],
+  "playerCount": 17,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/addiction-solitaire-hd",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/tajmahal_h5/gameTile__2ZY78.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/tajmahal_h5/spotlightGame__1Uh1Q.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/tajmahal_h5/gameBackground__bNmHs.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/tajmahal_h5/eventTile__1aGvE.jpg"
+  }
+ },
+ "worldclass_h5": {
+  "code": "worldclass_h5",
+  "id": 384,
+  "name": "World Class Solitaire HD",
+  "shortDescription": "Play Klondike-style solitaire in cities around the world. Fill your passport to climb the ranks.",
+  "categories": [
+   "Solitaire",
+   "Club Pogo",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy",
+   "Relaxing",
+   "1 Player",
+   "Casual"
+  ],
+  "playerCount": 238,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/world-class-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/worldclass_h5/gameTile__1tPzK.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/worldclass_h5/spotlightGame__1X1vX.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/worldclass_h5/gameBackground__2bLtM.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/worldclass_h5/eventTile__2ARNH.jpg"
+  }
+ },
+ "crosswordcove_h5": {
+  "code": "crosswordcove_h5",
+  "id": 411,
+  "name": "Crossword Cove HD",
+  "shortDescription": "Play a new crossword puzzle every day in a relaxing seaside setting. Keep the fun going by catching up on the past three months of daily puzzles in the calendar.",
+  "categories": [
+   "Word",
+   "Puzzle",
+   "Crossword Puzzles",
+   "Brain",
+   "HTML5",
+   "Spelling",
+   "Relaxing",
+   "Casual"
+  ],
+  "playerCount": 252,
+  "slug": "/games/crossword-cove",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/crosswordcove_h5/gameTile__1scyw.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/crosswordcove_h5/spotlightGame__ZGCMH.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/crosswordcove_h5/gameBackground__2vVXJ.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/crosswordcove_h5/eventTile__2MsqP.jpg"
+  }
+ },
+ "rainydaysolitaire_h5": {
+  "code": "rainydaysolitaire_h5",
+  "id": 406,
+  "name": "Rainy Day Spider Solitaire HD",
+  "shortDescription": "Grab your umbrella and join Octavia for a classic spider solitaire experience. In Rainy Day Spider Solitaire HD, the goal is to bring out the sun by clearing all the cards.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy",
+   "Relaxing",
+   "1 Player",
+   "Casual"
+  ],
+  "playerCount": 177,
+  "slug": "/games/rainy-day-spider-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/rainydaysolitaire_h5/gameTile__mx8oq.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/rainydaysolitaire_h5/spotlightGame__3tLBl.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/rainydaysolitaire_h5/gameBackground__2dfYk.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/rainydaysolitaire_h5/eventTile__3ENnB.jpg"
+  }
+ },
+ "hauntedhog": {
+  "code": "hauntedhog",
+  "id": 205,
+  "name": "Claire Hart Classic",
+  "shortDescription": "Relive every episode of Pogo's supernatural hidden object game. Filled with mystery, romance and restless spirits, Claire Hart Classic brings improved performance to the original.",
+  "categories": [
+   "Hidden Object",
+   "Puzzle",
+   "HTML5"
+  ],
+  "playerCount": 19,
+  "slug": "/games/claire-hart-classic",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/hauntedhog/gameTile__25SYC.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/hauntedhog/spotlightGame__Ki5GR.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/hauntedhog/gameBackground__130JM.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/hauntedhog/eventTile__3Rp4U.jpg"
+  }
+ },
+ "socks_h5": {
+  "code": "socks_h5",
+  "id": 418,
+  "name": "Crazy Cakes 2",
+  "shortDescription": "Bien-Marie needs your help in Crazy Cakes 2! Keep those ovens hot and deliver delicious desserts to hungry wizards, trolls and more in this magical time management puzzle game.",
+  "categories": [
+   "Puzzle",
+   "Club Pogo",
+   "HTML5",
+   "Crazy Games",
+   "Cooking"
+  ],
+  "playerCount": 2,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   },
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/crazy-cakes2",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/socks_h5/gameTile__aur3R.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/socks_h5/spotlightGame__3Nkmw.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/socks_h5/gameBackground__yU0eL.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/socks_h5/eventTile__169j6.jpg"
+  }
+ },
+ "thunderball_h5": {
+  "code": "thunderball_h5",
+  "id": 438,
+  "name": "Spades HD",
+  "shortDescription": "Pair up with a partner in this four-player online card game. Be the first team to score 500 points by estimating how many tricks you and your partner can win each round.",
+  "categories": [
+   "Card",
+   "Multiplayer",
+   "HTML5",
+   "Skill",
+   "Casual"
+  ],
+  "playerCount": 391,
+  "labels": [
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/spades",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/thunderball_h5/gameTile__1MEYk.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/thunderball_h5/spotlightGame__3MUYG.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/thunderball_h5/gameBackground__1UVU3.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/thunderball_h5/eventTile__1IErU.jpg"
+  }
+ },
+ "pogodailysudoku_h5": {
+  "code": "pogodailysudoku_h5",
+  "id": 420,
+  "name": "Pogo™ Daily Sudoku",
+  "shortDescription": "Take on four new sudoku puzzles every day in easy, medium, hard and expert difficulties. Overcome obstacles with helpful power-ups and unlock fun new themes as your wins add up!",
+  "categories": [
+   "Puzzle",
+   "Sudoku",
+   "Brain",
+   "HTML5",
+   "Number",
+   "Casual"
+  ],
+  "playerCount": 166,
+  "slug": "/games/pogo-daily-sudoku",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/pogodailysudoku_h5/gameTile__AXU6T.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/pogodailysudoku_h5/spotlightGame__1O2VC.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/pogodailysudoku_h5/gameBackground__KO80a.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/pogodailysudoku_h5/eventTile__1newy.jpg"
+  }
+ },
+ "copperhead_h5": {
+  "code": "copperhead_h5",
+  "id": 430,
+  "name": "Peggle Blast HD",
+  "shortDescription": "Enjoy the peg-popping, rainbow-exploding fun that is Peggle Blast HD! Discover all the Peggle Masters across 200+ levels while earning high scores that are beyond comprehension. ",
+  "categories": [
+   "Puzzle",
+   "HTML5",
+   "Arcade",
+   "Crazy Games",
+   "Mobile",
+   "1 Player",
+   "Bubble Shooter"
+  ],
+  "playerCount": 10,
+  "slug": "/games/peggle-blast",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/copperhead_h5/gameTile__1tpwg.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/copperhead_h5/spotlightGame__1AR7Q.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/copperhead_h5/gameBackground__27O0l.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/copperhead_h5/eventTile__1gZOa.jpg"
+  }
+ },
+ "nanaimobar_h5": {
+  "code": "nanaimobar_h5",
+  "id": 447,
+  "name": "Garden Blast",
+  "shortDescription": "Match and blast tiles to assist Antony in cleaning his garden through hundreds of handcrafted levels or venture forth in the new No Return Quest mode in one of the best online Match 2 games.",
+  "categories": [
+   "Puzzle",
+   "Match 3",
+   "HTML5",
+   "Block",
+   "Mobile",
+   "1 Player",
+   "Skill",
+   "Casual"
+  ],
+  "playerCount": 695,
+  "labels": [
+   {
+    "type": "event",
+    "copy": "DAILY"
+   },
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/garden-blast",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/nanaimobar_h5/gameTile__2P-c_.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/nanaimobar_h5/spotlightGame__2yeF5.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/nanaimobar_h5/gameBackground__246QR.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/nanaimobar_h5/eventTile__3xP5Z.jpg"
+  }
+ },
+ "tis_h5": {
+  "code": "tis_h5",
+  "id": 429,
+  "name": "Thousand Island Solitaire HD",
+  "shortDescription": "Thousand Island Solitaire is card-playing adventure on the high seas! Navigate ocean hazards to find treasure within this quirky solitaire adventure.",
+  "categories": [
+   "Solitaire",
+   "Club Pogo",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy"
+  ],
+  "playerCount": 18,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/thousand-island",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/tis_h5/gameTile__1sRAf.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/tis_h5/spotlightGame__10GGw.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/tis_h5/gameBackground__3mUO7.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/tis_h5/eventTile__3MQ52.jpg"
+  }
+ },
+ "solitairehome_h5": {
+  "code": "solitairehome_h5",
+  "id": 454,
+  "name": "Solitaire Home Story",
+  "shortDescription": "Renovate and decorate your home in this hit solitaire title! Save the family home in this stylish single-player adventure.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Brain",
+   "Mobile",
+   "1 Player",
+   "Simulation"
+  ],
+  "playerCount": 908,
+  "labels": [
+   {
+    "type": "gotm",
+    "copy": "Game of the Month"
+   },
+   {
+    "type": "merit",
+    "copy": "Merit Badge Event"
+   }
+  ],
+  "slug": "/games/solitaire-home-story",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/solitairehome_h5/gameTile__2DLO2.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/solitairehome_h5/spotlightGame__2tSwW.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/solitairehome_h5/gameBackground__2wALj.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/solitairehome_h5/eventTile__28aaF.jpg",
+   "spotlightMobile": "/static/v2/media/src/assets/games/solitairehome_h5/spotlightMobile__2-F95.jpg"
+  }
+ },
+ "poppit_h5": {
+  "code": "poppit_h5",
+  "id": 386,
+  "name": "Poppit! Party",
+  "shortDescription": "Build the ultimate costume collection for Spike, a balloon popping phenom. Don colorful outfits like astronaut, gardener, pirate and cowboy, each with a unique set of power-ups.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Arcade",
+   "Casual"
+  ],
+  "playerCount": 15,
+  "labels": [
+   {
+    "type": "register",
+    "copy": "Register FREE"
+   }
+  ],
+  "authLevel": "FREE",
+  "slug": "/games/poppit-party",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/poppit_h5/gameTile__nEBtp.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/poppit_h5/spotlightGame__38xFD.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/poppit_h5/gameBackground__2GsQL.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/poppit_h5/eventTile__2Akru.jpg"
+  }
+ },
+ "aces_h5": {
+  "code": "aces_h5",
+  "id": 390,
+  "name": "Aces Up! HD",
+  "shortDescription": "Calling all aces! Assemble your squadron and take command of the skies in this daredevil twist on solitaire.",
+  "categories": [
+   "Solitaire",
+   "Card",
+   "Club Pogo",
+   "Brain",
+   "HTML5",
+   "Strategy"
+  ],
+  "playerCount": 20,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/aces-up-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/aces_h5/gameTile__30EUT.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/aces_h5/spotlightGame__29kkM.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/aces_h5/gameBackground__2b53k.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/aces_h5/eventTile__2pyi5.jpg"
+  }
+ },
+ "sudoku_h5": {
+  "code": "sudoku_h5",
+  "id": 391,
+  "name": "Pogo™ Sudoku",
+  "shortDescription": "Keep your mind sharp with Pogo™ Sudoku. This classic logic game challenges you to get the highest score possible by solving puzzles fast and accurately.",
+  "categories": [
+   "Puzzle",
+   "Sudoku",
+   "Brain",
+   "HTML5",
+   "Number",
+   "Casual"
+  ],
+  "playerCount": 28,
+  "slug": "/games/pogo-sudoku",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/sudoku_h5/gameTile__1Cff9.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/sudoku_h5/spotlightGame__2ACmB.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/sudoku_h5/gameBackground__Aw4_N.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/sudoku_h5/eventTile__1kTd1.jpg"
+  }
+ },
+ "tumblebees_h5": {
+  "code": "tumblebees_h5",
+  "id": 407,
+  "name": "Tumble Bees HD",
+  "shortDescription": "See what all the buzz is about! Help fill Boogie Bear's honey jar by spelling as many sweet words as you can.",
+  "categories": [
+   "Word",
+   "Puzzle",
+   "Brain",
+   "HTML5",
+   "Spelling",
+   "Arcade",
+   "Casual"
+  ],
+  "playerCount": 24,
+  "slug": "/games/tumble-bees",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/tumblebees_h5/gameTile__2Tihi.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/tumblebees_h5/spotlightGame__2TWzo.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/tumblebees_h5/gameBackground__2_Cul.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/tumblebees_h5/eventTile__2fcC_.jpg"
+  }
+ },
+ "phlinx_h5": {
+  "code": "phlinx_h5",
+  "id": 389,
+  "name": "Phlinx II",
+  "shortDescription": "Explore a long-lost Egyptian paradise in this epic new bubble shooter. Collect powerful glyphs as you venture deeper and unlock ever more mysterious lands and tombs.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Arcade",
+   "Casual",
+   "Bubble Shooter"
+  ],
+  "playerCount": 85,
+  "slug": "/games/phlinx-ii",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/phlinx_h5/gameTile__37nQ-.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/phlinx_h5/spotlightGame__3nLxQ.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/phlinx_h5/gameBackground__cDD5y.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/phlinx_h5/eventTile__1PONl.jpg"
+  }
+ },
+ "pie_h5": {
+  "code": "pie_h5",
+  "id": 448,
+  "name": "Trivial Pursuit Online",
+  "shortDescription": "Play and compete against friends and family in everybody's favorite Hasbro Trivia game, Trivial Pursuit Online. Be quick and earn the most points to unlock new cosmetic rewards.",
+  "categories": [
+   "Board",
+   "Brain",
+   "HTML5",
+   "Multiplayer",
+   "2 Player",
+   "Casual"
+  ],
+  "playerCount": 12,
+  "forumLink": "https://games-forum.pogo.com/viewforum.php?f=463",
+  "slug": "/games/trivial-pursuit-online",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/pie_h5/gameTile__1fMjQ.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/pie_h5/spotlightGame__2u9RC.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/pie_h5/gameBackground__2tzZw.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/pie_h5/eventTile__1Q7tq.jpg",
+   "spotlightMobile": "/static/v2/media/src/assets/games/pie_h5/spotlightMobile__3uBAF.jpg"
+  }
+ },
+ "secretword_h5": {
+  "code": "secretword_h5",
+  "id": 131182,
+  "name": "Secret Word Gardens",
+  "shortDescription": "Relax, play, and watch your flowers grow in Secret Word Gardens, a cozy anagram word puzzle game. Solve word puzzles, unlock daily rewards, and bring beautiful gardens back to life.",
+  "categories": [
+   "Word",
+   "Puzzle",
+   "Spelling",
+   "HTML5"
+  ],
+  "playerCount": 602,
+  "labels": [
+   {
+    "type": "new",
+    "copy": "NEW"
+   }
+  ],
+  "slug": "/games/secret-word-gardens",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/secretword_h5/gameTile__2DzN4.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/secretword_h5/spotlightGame__2MDMG.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/secretword_h5/gameBackground__20Cd_.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/secretword_h5/eventTile__1YOz9.jpg"
+  }
+ },
+ "marbles_h5": {
+  "code": "marbles_h5",
+  "id": 444,
+  "name": "Pogo™ Bowl",
+  "shortDescription": "Be king of the lanes in Pogo™ Bowl! Roll into a stylish, retro bowling alley and enjoy multiplayer ten-pin action for up to 20 players.",
+  "categories": [
+   "Multiplayer",
+   "HTML5",
+   "2 Player",
+   "Crazy Games",
+   "Simulation",
+   "Casual"
+  ],
+  "playerCount": 10,
+  "slug": "/games/pogobowl",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/marbles_h5/gameTile__RfdMZ.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/marbles_h5/spotlightGame__1rt3r.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/marbles_h5/gameBackground__2vzF0.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/marbles_h5/eventTile__2MGfA.jpg"
+  }
+ },
+ "tripeaks_h5": {
+  "code": "tripeaks_h5",
+  "id": 401,
+  "name": "Tri-Peaks Solitaire HD",
+  "shortDescription": "Descend into a world of danger in this fast and addictive card game. Clear all the cards to help adventurer Tex Carter claim ancient treasures and evade deadly traps.",
+  "categories": [
+   "Solitaire",
+   "Club Pogo",
+   "Card",
+   "Brain",
+   "HTML5",
+   "Strategy",
+   "Relaxing",
+   "Casual"
+  ],
+  "playerCount": 2321,
+  "labels": [
+   {
+    "type": "club",
+    "copy": "club exclusive"
+   },
+   {
+    "type": "event",
+    "copy": "WEEKLY"
+   }
+  ],
+  "authLevel": "CLUB",
+  "slug": "/games/tripeaks-solitaire",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/tripeaks_h5/gameTile__1C5EC.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/tripeaks_h5/spotlightGame__3u51n.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/tripeaks_h5/gameBackground__2AMjz.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/tripeaks_h5/eventTile__3tCte.jpg"
+  }
+ },
+ "grilledcheese_h5": {
+  "code": "grilledcheese_h5",
+  "id": 419,
+  "name": "Trizzle",
+  "shortDescription": "Shuffle rows and columns of dolls to create matches of 3 or more. Keep making matches to earn more turns, beat your previous score and win adorable Trizzle trophies.",
+  "categories": [
+   "Match 3",
+   "Puzzle",
+   "HTML5",
+   "Casual"
+  ],
+  "playerCount": 18,
+  "slug": "/games/trizzle",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/grilledcheese_h5/gameTile__3R-5K.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/grilledcheese_h5/spotlightGame__2oyq1.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/grilledcheese_h5/gameBackground__34Juw.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/grilledcheese_h5/eventTile__nCjni.jpg"
+  }
+ },
+ "mjsafari_h5": {
+  "code": "mjsafari_h5",
+  "id": 409,
+  "name": "Mahjong Safari HD",
+  "shortDescription": "Play animal matchmaker in this wild new take on mahjong. Connect matching pairs of animals and win your way through multiple levels to complete your safari collection.",
+  "categories": [
+   "Mahjong",
+   "Puzzle",
+   "HTML5",
+   "Strategy",
+   "Relaxing",
+   "Casual"
+  ],
+  "playerCount": 194,
+  "slug": "/games/mahjong-safari",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/mjsafari_h5/gameTile__FyDCn.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/mjsafari_h5/spotlightGame__JDnzh.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/mjsafari_h5/gameBackground__92Gku.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/mjsafari_h5/eventTile__SiUt0.jpg"
+  }
+ },
+ "wheel_h5": {
+  "code": "wheel_h5",
+  "id": 838,
+  "name": "Wheel of Fortune: Pogo™ Edition",
+  "shortDescription": "Jump into America's favorite game show and live the excitement with each spin of the iconic wheel. Travel and compete to become a puzzle master today in Wheel of Fortune: Pogo Edition!",
+  "categories": [
+   "Word",
+   "Puzzle",
+   "Board",
+   "HTML5",
+   "Relaxing",
+   "Skill"
+  ],
+  "playerCount": 344,
+  "labels": [
+   {
+    "type": "event",
+    "copy": "DAILY"
+   }
+  ],
+  "slug": "/games/wheel-of-fortune",
+  "img": {
+   "gameTile": "/static/v2/media/src/assets/games/wheel_h5/gameTile__3zwJt.jpg",
+   "spotlightGame": "/static/v2/media/src/assets/games/wheel_h5/spotlightGame__HtcZI.jpg",
+   "gameBackground": "/static/v2/media/src/assets/games/wheel_h5/gameBackground__2KINN.jpg",
+   "eventTile": "/static/v2/media/src/assets/games/wheel_h5/eventTile__1umTa.jpg"
+  }
+ }
+}

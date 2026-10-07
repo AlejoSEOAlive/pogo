@@ -1,26 +1,132 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Tokens de diseño extraídos de pogo.com */
+@theme {
+  --font-sans: var(--font-roboto), Roboto, sans-serif;
+  --font-cond: var(--font-roboto-condensed), "Roboto Condensed", sans-serif;
+
+  --color-bg: #161920;
+  --color-surface: #292c37;
+  --color-surface-2: #3b3e4b;
+  --color-header: #2757a5;
+  --color-muted: #b1b8c8;
+  --color-link: #5ba0fd;
+  --color-hero-title: #cce4ff;
+  --color-accent: #e8418b;
+  --color-label-merit: #7c2a8a;
+  --color-label-club: #8a33c4;
+  --color-label-event: #1e8b2f;
+  --color-label-gotm: #7c2a8a;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--color-bg);
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: #fff;
+  font-family: var(--font-sans);
+  letter-spacing: 0.2px;
+}
+
+.btn-primary {
+  background-image: linear-gradient(rgb(46, 146, 216), rgb(90, 94, 211));
+}
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/* Carruseles horizontales */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Contenido editorial (markdown) */
+.prose-pogo {
+  color: #d3d7e0;
+  font-size: 16px;
+  line-height: 1.45;
+}
+.prose-pogo p {
+  margin: 0 0 1rem;
+}
+.prose-pogo h2 {
+  color: #fff;
+  font-weight: 500;
+  margin: 1.5rem 0 1rem;
+}
+.prose-pogo h3 {
+  color: #fff;
+  font-weight: 500;
+  margin: 1.25rem 0 0.75rem;
+}
+.prose-pogo a {
+  color: #4fc3f7;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.prose-pogo strong {
+  color: #fff;
+}
+.prose-pogo ul,
+.prose-pogo ol {
+  margin: 0 0 1rem 1.5rem;
+}
+.prose-pogo ul {
+  list-style: disc;
+}
+.prose-pogo ol {
+  list-style: decimal;
+}
+.prose-pogo li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+.prose-pogo table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1rem;
+  font-size: 15px;
+}
+.prose-pogo th,
+.prose-pogo td {
+  border: 1px solid #3b3e4b;
+  padding: 8px 10px;
+  text-align: left;
+}
+.prose-pogo th {
+  background: #292c37;
+  color: #fff;
+}
+.prose-pogo .pending {
+  color: #f6c344;
+  font-style: italic;
+  border-left: 3px solid #f6c344;
+  padding-left: 10px;
+}
+
+/* Variante de artículo */
+.prose-article {
+  color: #fff;
+}
+.prose-article h2 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+.prose-article h3 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* Variante de juego / categoría */
+.prose-game h2 {
+  font-size: 22px;
+}
+.prose-game h3 {
+  font-size: 19px;
 }

@@ -1,0 +1,272 @@
+{
+ "spotlight": {
+  "header": "Join for Free",
+  "copy": "Register your free Pogo account to save game progress and unlock new ways to play and win!",
+  "button": "REGISTER NOW",
+  "link": "/club-pogo",
+  "image": "https://content.pogo.com/cms/plfm_drivers_GuestToFree_SpotlightBanner-2.jpg",
+  "mobileImage": "https://content.pogo.com/cms/plfm_drivers_GuestToFree_SpotlightMobile-2.jpg"
+ },
+ "sections": [
+  {
+   "id": "top_games",
+   "type": "game",
+   "title": "Top Games",
+   "itemIds": [
+    "brisket",
+    "wordwhomp_h5",
+    "meho_h5",
+    "wheel_h5",
+    "firstclass_h5",
+    "crosswordcove_h5",
+    "poppithd_h5",
+    "mjsafari_h5",
+    "thunderball_h5",
+    "payday_h5",
+    "solitairehome_h5"
+   ]
+  },
+  {
+   "id": "new_games",
+   "type": "game",
+   "title": "New Games",
+   "itemIds": [
+    "secretword_h5",
+    "tilehero_h5",
+    "farmvalley_h5",
+    "meho_h5",
+    "nanaimobar_h5",
+    "cardscramble_h5",
+    "wheel_h5",
+    "mergeacademy_h5",
+    "solitairehome_h5"
+   ]
+  },
+  {
+   "id": "mobile_games",
+   "type": "game",
+   "title": "Best Mobile Games",
+   "itemIds": [
+    "nanaimobar_h5",
+    "irongrid_h5",
+    "solitairehome_h5",
+    "brisket",
+    "pie_h5",
+    "wheel_h5"
+   ]
+  },
+  {
+   "id": "random_games",
+   "type": "play_game",
+   "title": "Not sure what to Play?",
+   "copy": "Card Games, Brain Games, Solitaire, Match 3 and more. No picks, all fun!",
+   "itemIds": [
+    "coconut_h5",
+    "firstclass_h5",
+    "wheel_h5",
+    "mergeacademy_h5",
+    "mjgardens_h5",
+    "wordwhomp_h5",
+    "irongrid_h5",
+    "solitairehome_h5"
+   ]
+  },
+  {
+   "id": "solitaire",
+   "type": "game",
+   "title": "Solitaire",
+   "itemIds": [
+    "solitairehome_h5",
+    "aces_h5",
+    "firstclass_h5",
+    "jetset_h5",
+    "payday_h5",
+    "tajmahal_h5",
+    "rainydaysolitaire_h5",
+    "coconut_h5",
+    "charminar_h5",
+    "worldclass_h5",
+    "tripeaks_h5",
+    "tis_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "word",
+   "type": "game",
+   "title": "Word",
+   "itemIds": [
+    "wheel_h5",
+    "secretword_h5",
+    "crosswordcove_h5",
+    "brisket",
+    "sphinx_h5",
+    "tumblebees_h5",
+    "wordwhomp_h5",
+    "wordsearch_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "mahjong",
+   "type": "game",
+   "title": "Mahjong",
+   "itemIds": [
+    "tilehero_h5",
+    "mjgardens_h5",
+    "mjsafari_h5",
+    "ms_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "puzzle",
+   "type": "game",
+   "title": "Puzzle",
+   "itemIds": [
+    "tilehero_h5",
+    "wheel_h5",
+    "mergeacademy_h5",
+    "nanaimobar_h5",
+    "irongrid_h5",
+    "meho_h5",
+    "secretword_h5",
+    "socks_h5",
+    "sidewinder_h5",
+    "copperhead_h5",
+    "pogodailysudoku_h5",
+    "sudoku_h5",
+    "poutine_h5",
+    "qutubminar_h5",
+    "hauntedhog",
+    "claire2_h5",
+    "mjgardens_h5",
+    "mjsafari_h5",
+    "ms_h5",
+    "phlinx_h5",
+    "stt_h5",
+    "poppit_h5",
+    "poppithd_h5",
+    "stackem_h5",
+    "grilledcheese_h5",
+    "crosswordcove_h5",
+    "tumblebees_h5",
+    "wordwhomp_h5",
+    "wordsearch_h5",
+    "sphinx_h5",
+    "cardscramble_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "events_teaser",
+   "type": "challenge_upsell",
+   "title": "Current Pogo Challenges!",
+   "copy": "<a href=\"#register:challenge-carousel-events_teaser\">Sign up now for FREE</a> to start completing Challenges to earn Badges and in-game rewards.",
+   "source": "events"
+  },
+  {
+   "id": "match-3",
+   "type": "game",
+   "title": "Match 3",
+   "itemIds": [
+    "tilehero_h5",
+    "meho_h5",
+    "mergeacademy_h5",
+    "nanaimobar_h5",
+    "phlinx_h5",
+    "poppithd_h5",
+    "poppit_h5",
+    "stackem_h5",
+    "qutubminar_h5",
+    "stt_h5",
+    "grilledcheese_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "board",
+   "type": "game",
+   "title": "Board",
+   "itemIds": [
+    "wheel_h5",
+    "pie_h5",
+    "brisket",
+    "cardscramble_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "internal_ad_game_progress",
+   "type": "internal_ad",
+   "title": "Save Game progress across all devices, earn rewards, get 2 days of no ADs - all free!",
+   "copy": "<a hrefKey=\"clubPogo\" pageLocation=\"internal_ad_game_progress\" intcmp=\"internal_ad_game_progress\">See Benefits for Signing Up</a>"
+  },
+  {
+   "id": "card",
+   "type": "game",
+   "title": "Card",
+   "itemIds": [
+    "solitairehome_h5",
+    "pegasus_h5",
+    "anaconda_h5",
+    "thunderball_h5",
+    "cardscramble_h5",
+    "aces_h5",
+    "firstclass_h5",
+    "tis_h5",
+    "jetset_h5",
+    "rainydaysolitaire_h5",
+    "payday_h5",
+    "coconut_h5",
+    "charminar_h5",
+    "worldclass_h5",
+    "tajmahal_h5",
+    "tripeaks_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "club-pogo",
+   "type": "game",
+   "title": "Club Pogo",
+   "itemIds": [
+    "tripeaks_h5",
+    "pegasus_h5",
+    "socks_h5",
+    "tajmahal_h5",
+    "wordsearch_h5",
+    "anaconda_h5",
+    "sphinx_h5",
+    "tis_h5",
+    "worldclass_h5",
+    "aces_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "hidden-object",
+   "type": "game",
+   "title": "Hidden Object",
+   "itemIds": [
+    "hauntedhog",
+    "claire2_h5"
+   ],
+   "source": "category"
+  },
+  {
+   "id": "multiplayer",
+   "type": "game",
+   "title": "Multiplayer",
+   "itemIds": [
+    "pie_h5",
+    "marbles_h5",
+    "pegasus_h5",
+    "anaconda_h5",
+    "brisket",
+    "thunderball_h5"
+   ],
+   "source": "category"
+  }
+ ]
+}
