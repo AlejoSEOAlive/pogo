@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { LOGO, POGO, href, navCategories, categoryHref, games, cdn } from "@/lib/pogo";
+import { LOGO, POGO, href, navCategories, categoryHref, cdn } from "@/lib/links";
+
+export type ExploreGame = { code: string; name: string; slug: string; tile?: string };
 import { ChevronDown, SearchIcon, ShieldIcon, MenuIcon } from "./icons";
 import PerksTooltip from "./PerksTooltip";
 import MobileDrawer from "./MobileDrawer";
@@ -14,9 +16,8 @@ const explore = [
   { label: "Pogo Articles", path: "/articles" },
   { label: "Player Support", path: "/pogo-player-support" },
 ];
-const exploreGames = ["brisket", "wordwhomp_h5", "meho_h5", "wheel_h5", "firstclass_h5"];
 
-export default function Header() {
+export default function Header({ exploreGames }: { exploreGames: ExploreGame[] }) {
   const [open, setOpen] = useState<null | "games" | "explore" | "mobile">(null);
   const ref = useRef<HTMLElement>(null);
 
@@ -143,17 +144,13 @@ export default function Header() {
               ))}
             </ul>
             <div className="grid flex-1 grid-cols-2 gap-3 md:grid-cols-5">
-              {exploreGames.map((c) => {
-                const g = games[c];
-                if (!g) return null;
-                return (
-                  <a key={c} href={href(g.slug)} className="group">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src={cdn(g.img.gameTile)} alt={g.name} className="aspect-[16/9] w-full rounded-lg object-cover" loading="lazy" />
-                    <span className="mt-1 block truncate text-sm group-hover:text-link">{g.name}</span>
-                  </a>
-                );
-              })}
+              {exploreGames.map((g) => (
+                <a key={g.code} href={href(g.slug)} className="group">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={cdn(g.tile)} alt={g.name} className="aspect-[16/9] w-full rounded-lg object-cover" loading="lazy" />
+                  <span className="mt-1 block truncate text-sm group-hover:text-link">{g.name}</span>
+                </a>
+              ))}
             </div>
           </div>
         </div>

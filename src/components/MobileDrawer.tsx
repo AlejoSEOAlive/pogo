@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { cdn, href, navCategories, categoryHref } from "@/lib/pogo";
+import { cdn, href, navCategories, categoryHref } from "@/lib/links";
 import { ChevronDown, CloseIcon, ExternalIcon } from "./icons";
 
 type Link = { label: string; href: string; external?: boolean };
@@ -58,7 +58,7 @@ export default function MobileDrawer({ open, onClose }: { open: boolean; onClose
   }, [open]);
 
   return (
-    <div className={`fixed inset-0 z-[60] xl:hidden ${open ? "" : "pointer-events-none"}`} aria-hidden={!open}>
+    <div className={`fixed inset-0 z-[60] xl:hidden ${open ? "" : "pointer-events-none"}`} aria-hidden={!open} inert={!open}>
       {/* Fondo */}
       <div
         onClick={onClose}

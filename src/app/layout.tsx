@@ -3,6 +3,12 @@ import { Roboto, Roboto_Condensed } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { games } from "@/lib/pogo";
+
+const exploreGames = ["brisket", "wordwhomp_h5", "meho_h5", "wheel_h5", "firstclass_h5"]
+  .map((c) => games[c])
+  .filter(Boolean)
+  .map((g) => ({ code: g.code, name: g.name, slug: g.slug, tile: g.img.gameTile }));
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -41,7 +47,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${roboto.variable} ${robotoCondensed.variable} antialiased`}>
       <body className="flex min-h-screen flex-col">
-        <Header />
+        <Header exploreGames={exploreGames} />
         <main className="flex-1">{children}</main>
         <Footer />
       </body>

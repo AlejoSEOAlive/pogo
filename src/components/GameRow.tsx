@@ -1,4 +1,4 @@
-import type { Game } from "@/lib/pogo";
+import type { Game } from "@/lib/links";
 import Carousel from "./Carousel";
 import GameTile from "./GameTile";
 

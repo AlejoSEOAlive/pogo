@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cdn } from "@/lib/pogo";
+import { cdn } from "@/lib/links";
 
 /** Página "Page Not Found" con el estilo de pogo.com */
 export default function NotFoundView() {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { POGO } from "@/lib/pogo";
+import { POGO } from "@/lib/links";
 
 /** Tooltip "Get More Perks" que pogo.com muestra a invitados bajo "Why Register?" */
 export default function PerksTooltip() {
@@ -41,7 +41,7 @@ export default function PerksTooltip() {
       </p>
       <p className="mt-1 text-sm">
         <a href={`${POGO}/server/auth/register`} className="underline">Register Now</a> or{" "}
-        <a href={`${POGO}/club-pogo`} className="underline">Learn More</a>
+        <a href={`${POGO}/club-pogo`} className="underline">Learn More<span className="sr-only"> about registering on Pogo</span></a>
       </p>
     </div>
   );

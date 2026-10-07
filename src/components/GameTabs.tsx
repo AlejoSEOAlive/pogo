@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type ReactNode } from "react";
-import { POGO } from "@/lib/pogo";
+import { POGO } from "@/lib/links";
 
 export default function GameTabs({ children }: { children: ReactNode }) {
   const [tab, setTab] = useState<"info" | "challenges">("info");

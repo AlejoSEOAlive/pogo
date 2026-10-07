@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { type Game, type Label, cdn, href } from "@/lib/pogo";
+import { type Game, type Label, cdn, href } from "@/lib/links";
 import { PlayIcon, CoinIcon } from "./icons";
 
 const labelStyle: Record<string, string> = {
@@ -26,7 +26,7 @@ export function GameLabel({ label }: { label: Label }) {
 export default function GameTile({
   game,
   priority = false,
-  sizes = "(max-width: 768px) 60vw, 290px",
+  sizes = "tile",
 }: {
   game: Game;
   priority?: boolean;
@@ -43,10 +43,10 @@ export default function GameTile({
           <Image
             src={cdn(game.img.gameTile)}
             alt={game.name}
-            fill
-            sizes={sizes}
+            width={sizes === "wide" ? 360 : 290}
+            height={sizes === "wide" ? 203 : 163}
             priority={priority}
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
         )}
       </a>

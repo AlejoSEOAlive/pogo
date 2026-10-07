@@ -1,4 +1,4 @@
-import { LOGO, cdn } from "@/lib/pogo";
+import { LOGO, cdn } from "@/lib/links";
 
 const links = [
   { label: "Home", href: "/" },

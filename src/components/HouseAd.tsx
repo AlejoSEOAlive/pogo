@@ -1,4 +1,4 @@
-import { cdn, href } from "@/lib/pogo";
+import { cdn, href } from "@/lib/links";
 
 const AD = "/static/v2/media/src/components/ads/static/houseAd/";
 const src = {

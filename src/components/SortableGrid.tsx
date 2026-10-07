@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Game } from "@/lib/pogo";
+import type { Game } from "@/lib/links";
 import GameTile from "./GameTile";
 import { ChevronDown } from "./icons";
 
@@ -47,7 +47,7 @@ export default function SortableGrid({ games, title }: { games: Game[]; title: s
       </div>
       <div className="grid grid-cols-1 gap-x-2 gap-y-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         {list.map((g, i) => (
-          <GameTile key={g.code} game={g} priority={i < 4} sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1280px) 33vw, 250px" />
+          <GameTile key={g.code} game={g} priority={i < 4} sizes="wide" />
         ))}
       </div>
     </>

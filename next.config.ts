@@ -12,6 +12,9 @@ const nextConfig: NextConfig = {
   },
   images: {
     formats: ["image/avif", "image/webp"],
+    // Menos variantes = srcset más corto = HTML más liviano
+    deviceSizes: [640, 828, 1080, 1440, 1920],
+    imageSizes: [320],
     remotePatterns: [
       new URL("https://www.pogo.com/static/**"),
       new URL("https://content.pogo.com/**"),
