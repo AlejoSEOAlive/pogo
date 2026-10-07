@@ -5,13 +5,13 @@ export default function MoreArticles({ items }: { items: MoreArticle[] }) {
   return (
     <section className="mx-auto mt-10 max-w-[1330px]">
       <h2 className="mb-4 text-xl font-medium">More Articles</h2>
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-2 sm:grid-cols-[repeat(auto-fill,258px)]">
         {items.map((m) => {
           const cat = blogCategories.find((c) => c.categoryId === m.categoryIds?.[0]);
           return (
             <a key={m.path} href={href(m.path)} className="group overflow-hidden rounded-xl border border-white/15 bg-surface">
-              <div className="relative aspect-[256/140]">
-                <Image src={cdn(m.image)} alt={m.title} fill sizes="(max-width: 640px) 100vw, 320px" className="object-cover" />
+              <div className="relative aspect-[258/120]">
+                <Image src={cdn(m.image)} alt={m.title} fill sizes="(max-width: 640px) 100vw, 258px" className="object-cover" />
                 {m.featured && (
                   <span className="absolute left-0 top-0 rounded-br-md bg-[#c2185b] px-2 py-0.5 font-cond text-xs font-bold uppercase">
                     Featured Post
