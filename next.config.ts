@@ -2,6 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
+  experimental: {
+    // CSS (Tailwind, ~10 KB) inline en el <head>: elimina la petición que bloquea el renderizado
+    inlineCss: true,
+  },
   turbopack: {
     rules: {
       "*.css": {
