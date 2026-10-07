@@ -68,7 +68,7 @@ export default function Header() {
             type="search"
             placeholder="Search games"
             aria-label="Search games"
-            className="h-[38px] w-[146px] rounded-md bg-surface-2 pl-8 pr-2 text-base text-muted placeholder:text-muted focus:w-56 focus:outline-none focus:ring-2 focus:ring-link transition-[width]"
+            className="h-[38px] w-[180px] rounded-md bg-surface-2 pl-8 pr-2 text-base text-muted placeholder:text-muted focus:w-60 focus:outline-none focus:ring-2 focus:ring-link transition-[width]"
           />
         </form>
         <a href={`${POGO}/search`} className="p-2 sm:hidden" aria-label="Search">
