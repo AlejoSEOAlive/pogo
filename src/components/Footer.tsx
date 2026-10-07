@@ -25,7 +25,7 @@ export default function Footer() {
     <footer className="px-6 pb-3 pt-2 text-xs font-medium md:px-14">
       <div className="flex flex-col gap-6 border-b border-white/20 py-8 md:flex-row md:items-center md:justify-between">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={LOGO} alt="Pogo Logo" width={100} height={36} className="h-9 w-auto" />
+        <img src={LOGO} alt="Pogo Logo" width={112} height={40} className="h-10 w-auto" />
         <nav aria-label="Footer" className="flex flex-wrap items-center gap-x-4 gap-y-3 md:justify-end">
           {links.map((l) => (
             <a key={l.label} href={l.href} className="underline hover:text-link" {...(l.href.startsWith("http") ? ext : {})}>

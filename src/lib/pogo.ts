@@ -34,7 +34,7 @@ export const categories = categoriesData as unknown as Record<
     games: string[];
     spotlight?: string | null;
     forumLink?: string;
-    seo: { title?: string; metaDescription?: string; h1?: string; h2?: string };
+    seo: { title?: string; metaDescription?: string; h1?: string; h2?: string; accordionTitle?: string };
   }
 >;
 export type GamePage = {
@@ -75,7 +75,7 @@ export const blogCategories = blogCategoriesData as { path: string; categoryId: 
 export const LOCAL_PATHS = new Set<string>([
   "/",
   "/free-online-games/card",
-  // "/free-online-games/puzzle",
+  "/free-online-games/puzzle",
   // "/games/trivial-pursuit-online",
   // "/games/poppit-bingo",
   // ...Object.keys(articles).map((s) => "/" + s),

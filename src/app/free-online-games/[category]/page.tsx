@@ -70,7 +70,7 @@ export default async function CategoryPage({ params }: PageProps<"/free-online-g
           </div>
         )}
 
-        {body && <SeoAccordion title={c.seo.h1 ?? ""} html={body} />}
+        {body && <SeoAccordion title={c.seo.accordionTitle ?? c.seo.h1 ?? ""} html={body} />}
       </div>
     </div>
   );
