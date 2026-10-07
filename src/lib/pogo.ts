@@ -74,7 +74,7 @@ export const blogCategories = blogCategoriesData as { path: string; categoryId: 
  */
 export const LOCAL_PATHS = new Set<string>([
   "/",
-  // "/free-online-games/card",
+  "/free-online-games/card",
   // "/free-online-games/puzzle",
   // "/games/trivial-pursuit-online",
   // "/games/poppit-bingo",

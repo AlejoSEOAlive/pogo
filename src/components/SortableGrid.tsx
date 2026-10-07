@@ -20,9 +20,9 @@ export default function SortableGrid({ games, title }: { games: Game[]; title: s
 
   return (
     <>
-      <div className="mb-6 mt-4 flex flex-wrap items-center justify-between gap-3">
+      <div className="mb-6 mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <h1 className="text-lg font-medium md:text-xl">{title}</h1>
-        <div className="relative">
+        <div className="relative self-end sm:self-auto">
           <button className="flex items-center gap-1 text-lg" aria-expanded={open} onClick={() => setOpen((o) => !o)}>
             Sort by: <span className="font-medium">{sort}</span> <ChevronDown className={open ? "rotate-180" : ""} />
           </button>
@@ -45,9 +45,9 @@ export default function SortableGrid({ games, title }: { games: Game[]; title: s
           )}
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-x-2 gap-y-3 sm:grid-cols-3 xl:grid-cols-4">
+      <div className="grid grid-cols-1 gap-x-2 gap-y-3 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         {list.map((g, i) => (
-          <GameTile key={g.code} game={g} priority={i < 4} sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 250px" />
+          <GameTile key={g.code} game={g} priority={i < 4} sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1280px) 33vw, 250px" />
         ))}
       </div>
     </>

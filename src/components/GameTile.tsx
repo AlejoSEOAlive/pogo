@@ -33,7 +33,7 @@ export default function GameTile({
   sizes?: string;
 }) {
   const link = href(game.slug);
-  const label = game.labels?.find((l) => l.type !== "event") ?? game.labels?.[0];
+  const label = game.labels?.[0];
   const genre = game.categories?.[0];
   return (
     <div className="group relative">
