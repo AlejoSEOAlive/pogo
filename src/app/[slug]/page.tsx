@@ -46,16 +46,16 @@ export default async function ArticlePage({ params }: PageProps<"/[slug]">) {
   };
 
   return (
-    <div className="bg-[radial-gradient(ellipse_at_top_left,#1d2f33_0%,transparent_45%),radial-gradient(ellipse_at_bottom_right,#2b1a3a_0%,transparent_45%)] px-4 py-8 md:px-7 xl:px-14">
+    <div className="article-bg px-4 py-8 md:px-7 xl:px-14">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <article className="w-full rounded-[28px] border border-white/20 bg-bg/60 px-[30px] pb-12 pt-10 md:px-[8%] md:pt-14">
+      <article className="w-full rounded-[32px] border-2 border-[#3b3e4b] bg-[rgba(41,44,55,0.35)] px-[30px] pb-12 pt-10 md:px-[8%] md:pt-14">
         <div className="mx-auto max-w-[758px] md:w-[85%]">
           <div className="text-center">
-            <a href={href("/articles")} className="text-sm font-medium underline">
-              &lt; Back to Articles
+            <a href={href("/articles")} className="mt-5 inline-block text-lg font-medium underline">
+              &lt; Back to All Articles
             </a>
             <Breadcrumbs
-              className="mt-2 justify-center [&_ol]:justify-center"
+              className="mt-2 justify-center !text-sm [&_ol]:justify-center"
               items={[
                 { label: "Home", href: "/" },
                 { label: "Articles", href: href("/articles") },

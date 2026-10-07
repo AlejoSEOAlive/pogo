@@ -195,3 +195,10 @@ body {
     line-height: 31px;
   }
 }
+
+/* Fondo con degradés de las páginas de artículo (valores de pogo.com) */
+.article-bg {
+  background-image: radial-gradient(circle at 0px 600px, rgba(19, 105, 37, 0.2), rgba(0, 0, 0, 0) 600px),
+    radial-gradient(circle at 100% 1200px, rgba(67, 26, 101, 0.5), rgba(0, 0, 0, 0) 600px),
+    radial-gradient(circle at -100px 1800px, rgba(25, 77, 215, 0.2), rgba(0, 0, 0, 0) 600px);
+}
